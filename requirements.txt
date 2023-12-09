@@ -1,0 +1,8 @@
+certifi==2023.11.17
+distlib==0.3.7
+filelock==3.13.1
+pipenv==2023.11.15
+platformdirs==3.11.0
+pytube==15.0.0
+setuptools==68.2.2
+virtualenv==20.24.6
