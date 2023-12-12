@@ -36,7 +36,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
     response = handle_response(link)
     print("Bot: ", response)
     audio_file = InputFile(response)
-    await context.bot.send_audio(chat_id=update.message.chat_id, audio=audio_file)
+    await context.bot.send_audio(chat_id=update.message.chat.id, audio=response)
     
 
 async def error(update: Update, context: ContextTypes.DEFAULT_TYPE):
